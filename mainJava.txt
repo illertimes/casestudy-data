@@ -1,0 +1,25 @@
+package cardcardsystem;
+
+import database.Queries;
+
+/**
+ *
+ * 
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        new Main();
+    }
+    
+    public Main(){
+        System.out.println("1");
+        MainStageLoader.launch(MainStageLoader.class);
+        
+//        this.dispose();
+    }
+    
+}

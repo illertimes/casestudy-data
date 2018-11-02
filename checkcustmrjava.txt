@@ -1,0 +1,18 @@
+package custom_cells;
+
+import javafx.scene.control.TableCell;
+import javafx.scene.control.cell.CheckBoxTableCell;
+import javafx.util.Callback;
+import model.Customer;
+
+public class CheckBoxSelectCustomer implements Callback{
+
+    @Override
+    public TableCell call(Object p) {
+        CheckBoxTableCell<Customer,Boolean> checkBoxCell = new CheckBoxTableCell<>();
+        return checkBoxCell;
+    }
+    
+    
+    
+}
